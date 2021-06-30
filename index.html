@@ -8,19 +8,26 @@
     <title>Code Quiz</title>
 </head>
 <body>
+    <div class="HighScores"><ahref="highestScores.html"> View Your High Scores</a></div>
+    <div class="timer"> <span id="time"> 0 </span></div>
     <div class="container">
+        <div id="startScreen" class="start">
+            <h2> Quiz Challenge</h2>
+            <p> blah blah blah</p>
+            <button id="start"> Start Your Quiz</button>
+        </div>
+
         <div id="question-container" class="hide">
-            <div id="question">Question</div>
-            <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+            <h3 id="questionTitle"></h3>
+            <div id="choice" class="choice">Question</div>
+            <div id="endScreen" class="hide">
+           
             </div>
+            <h3> Done</h3>
          </div> 
         <div class="controls">
-            <button id="start-btn" class="start-btn btn">Start</button>
-            <button id="next-btn" class="next-btn btn">Next</button>
+            <button id="submitButton" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
     </div>
 </body>
