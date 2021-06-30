@@ -3,7 +3,7 @@
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+body, .wrapper {
     padding: 0;
     margin: 0;
     display: flex;
@@ -14,7 +14,7 @@ body {
     background-color: blue;
 }
 
-.container {
+.container, .wrapper {
     width: 800px;
     max-width: 80%;
     background-color: white;
@@ -22,7 +22,7 @@ body {
     padding: 10px;
 }
 
-.btn-list {
+.btn-list, .wrapper {
     display: grid;
     gap: 10px;
     margin: 20px 0;
