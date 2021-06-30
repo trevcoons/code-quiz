@@ -25,6 +25,7 @@ function startQuiz() {
 var startEl = document.getElementById("startScreen");
 startEl.setAttribute("class","hide")
 
+
 questionEl.removeAttribute("class");
 
 timerId = setInterval(clockTick, 1000);
