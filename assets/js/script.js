@@ -11,9 +11,8 @@ var currentQuestions = 0;
 // submit
 var questonEl = document.getElementById("question");
 var choiceEl = document.getElementById("choice");
-// we have this
 var timeEl = document.getElementById("time");
-var submitl = document.getElementById("submit");
+var submitEl = document.getElementById("submit");
 var initialEl = document.getElementById("intiial");
 
 
@@ -22,7 +21,7 @@ var initialEl = document.getElementById("intiial");
 function startQuiz() {
 
     // hide the start page so that questions show up 
-    // we have this too
+   
 var startEl = document.getElementById("startScreen");
 startEl.setAttribute("class","hide")
 
