@@ -52,3 +52,12 @@ body {
 .hide {
     display: none;
 }
+
+a {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: white;
+}
